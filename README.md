@@ -23,6 +23,15 @@ pip install -r requirements.txt
 Создайте файл .env в директории проекта и поместите ваш ключ туда.
 Содержимое файла .env должно быть вида TOKEN=<ваш токен>. 
 
+### Примеры запуска скрипта
+```
+$ python3 count_bitlinks.py https://yandex.ru
+Сокращенная ссылка: http://bit.ly/2JFggo3
+
+
+$ python3 count_bitlinks.py http://bit.ly/2JFggo3
+Дата: 2019-07-19T00:00:00+0000, кликов: 1
+```
 
 ### Цель проекта
 
