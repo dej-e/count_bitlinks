@@ -66,7 +66,7 @@ if __name__ == "__main__":
     parser.add_argument('url', help='Адрес ссылки (URL)')
     args = parser.parse_args()
 
-    api_token = os.getenv('TOKEN')
+    api_token = os.getenv('BITLY_API_TOKEN')
     api_url = 'https://api-ssl.bitly.com/v4/user'
 
     url = args.url
